@@ -27,13 +27,26 @@
 */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('images/bordiOne.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+
   background-color: #d2cfb9;
 }
 
+.backgroundImage {
+  display: flex;
+  justify-content: center;
+  max-width: 100%; 
+  text-align: center; 
+}
+
+img {
+  margin: 25px;
+  border-radius: 30px;
+  width: 800px; /* Set the desired width for the image */
+  height: auto;
+}
+
 .headerRegion {
+  
   padding: 2rem;
   background-color: rgba(150, 122, 70, 0.5);
   display: flex;
@@ -44,6 +57,7 @@ body {
 }
 
 .headerRegion .headerSections ul {
+  
   display: flex;
   gap: 20rem;
   list-style: none;
@@ -65,6 +79,7 @@ body {
   
 }
 
+
 .introDuct:hover {
   background-color: #f8deb2;
   padding: 10px;
@@ -81,6 +96,7 @@ body {
 }
 
 .introText {
+  
   font-size: 3rem;
   font-weight: bolder;
   display: flex;
@@ -95,7 +111,7 @@ body {
   display: flex;
   justify-content: center;
   text-shadow: 2px 2px 4px rgba(254, 254, 254, 0.8);
-  margin-top: 58rem;
+  margin-top: 20rem;
 }
 
 .videoIntro {
@@ -125,6 +141,7 @@ body {
 
 
 main {
+  
   min-height: 100vh;
 }
 

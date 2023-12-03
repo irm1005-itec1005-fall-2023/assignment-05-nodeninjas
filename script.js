@@ -8,10 +8,10 @@
 //
 
 // Constants
-const appID = "app";
-const headingText = "Develop. Preview. Ship.";
-const headingTextIcon = "🚀";
-const projectDueDate = "8 December 2023 11:59";
+const appID = "";
+const headingText = "";
+const headingTextIcon = "";
+const projectDueDate = "";
 
 // Variables
 let countdownDate = new Date(projectDueDate);
