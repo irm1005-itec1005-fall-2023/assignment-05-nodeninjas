@@ -80,6 +80,7 @@ img {
 }
 
 
+
 .introDuct:hover {
   background-color: #f8deb2;
   padding: 10px;
@@ -138,6 +139,22 @@ img {
   margin-top: 10rem;
 }
 
+
+.endFooter {
+  background-color: #b4a47f;
+}
+
+.endTextOne {
+  font-weight: bolder;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(254, 254, 254, 0.8);
+  
+  padding: 25px;
+  margin-left: 100px;
+  
+  display: flex;
+  justify-content: left;
+}
 
 
 main {
