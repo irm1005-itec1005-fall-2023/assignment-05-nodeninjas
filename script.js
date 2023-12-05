@@ -82,3 +82,45 @@ function inititialise() {
 inititialise();
 
 
+const form = document.querySelector('form')
+const inputs = document.querySelectorAll('input')
+const email = document.getElementById('email')
+const nameHere = document.getElementById('nameHere')
+const pronouns = document.getElementById('pronouns')
+
+function showError(value, message) {
+  const label = value.parentElement
+  const small = label.querySelector('small')
+
+  if (value.value === '') {
+    small.innerText = message
+  
+  } else {
+    small.innerText = ''
+ 
+  }
+}
+
+
+
+
+function checkEmail(value) {
+  const re =
+    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+
+  if (!re.test(value.value.trim())) {
+    showError(email, 'Looks like this is not an email')
+  } else {
+    showError(email, '')
+  }
+}
+
+function onSubmit(e) {
+  e.preventDefault()
+  
+  showError(nameHere, 'Please fill your name here')
+  showError(pronouns, 'Pronouns cannot be empty')
+  checkEmail(email)
+}
+
+form.addEventListener('submit', onSubmit)

@@ -126,8 +126,11 @@ img {
 #vid {
   width: 80%; 
   max-width: 800px; 
+  margin-top: 40px;
   height: auto;
   border-radius: 20px;
+ 
+ 
 }
 
 .inCommune {
@@ -164,6 +167,8 @@ img {
   text-align: center;
   font-weight: bolder;
   margin: 5px;
+  font-size: 27px;
+  font-style: italic;
 }
 
 .endTexting {
@@ -192,6 +197,10 @@ input {
   margin-bottom: 4rem;
 }
 
+label {
+  position: relative;
+}
+
 .btn {
   width: 100%;
   background-color: #ffebbb;
@@ -203,6 +212,24 @@ input {
   box-shadow: 0 5px hwb(77 68% 26% / 0.6)
 }
 
+.btn:hover {
+  background-color: #d6c9ac;
+}
+
+
+small {
+  color: rgb(217, 255, 0);
+  font-weight: bold;
+  max-width: auto;
+  max-height: auto;
+  position: absolute;
+  bottom: -40px;
+  right: 10px;
+}
+
+
+
+
 fieldset {
   display: flex;
   flex-direction: column;
@@ -213,9 +240,29 @@ fieldset {
   padding: 1rem;
 }
 
+.endTextTwo {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+}
 
+.devs {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+}
 
-
+.devsTeam {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 5px;
+  padding: 5px;
+}
 
 main {
   max-width: 100%;
