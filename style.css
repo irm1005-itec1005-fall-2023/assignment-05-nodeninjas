@@ -348,3 +348,18 @@ main {
   white-space: nowrap;
   border-width: 0;
 }
+.our-impact {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.our-impact h2 {
+  color: #333;
+}
+
+.our-impact p, .our-impact ul {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
