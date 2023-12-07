@@ -45,9 +45,9 @@ body {
 .welcome {
   position: absolute;
   right: 16px;
-  padding:5rem;
+  padding:4rem;
   margin:3rem;
-  font-size: 25px;
+  font-size: 30px;
   color: #3F4B3B;
   font-weight: bolder;
 
