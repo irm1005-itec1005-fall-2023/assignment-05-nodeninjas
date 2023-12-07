@@ -38,12 +38,22 @@ body {
   text-align: center; 
 }
 
-img {
-  margin: 25px;
-  border-radius: 30px;
-  width: 800px; /* Set the desired width for the image */
-  height: auto;
+.backgroundImage {
+  size: 100%;
 }
+
+.welcome {
+  position: absolute;
+  right: 16px;
+  padding:5rem;
+  margin:3rem;
+  font-size: 25px;
+  color: #3F4B3B;
+  font-weight: bolder;
+
+}
+
+
 
 .headerRegion {
   
@@ -116,6 +126,13 @@ img {
   margin-top: 20rem;
 }
 
+.communityImage {
+    margin: 25px;
+    border-radius: 30px;
+    width: 800px; /* Set the desired width for the image */
+    height: auto;
+}
+
 .algonquinIntro {
   display: flex;
   flex-direction: column;
@@ -151,6 +168,11 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.literature {
+  display: flex;
+  flex-direction: row;
 }
 
 .videoIntro {
