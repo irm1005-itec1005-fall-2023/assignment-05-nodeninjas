@@ -457,11 +457,11 @@ main {
 }
 
 .one{
-  background-color: #d74848; 
+  background-color: rgb(166, 112, 153); 
 }
 
 .two {
-  background-color: #b86f3f; 
+  background-color: #cc8a5b; 
 }
 
 .info-box .icon {
@@ -490,7 +490,15 @@ main {
 .btn:hover {
   background-color: #e6bcad; 
 }
+.info-box .icon {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100px; 
+}
+
 .info-box .icon img {
-  width: 50px; /* Set the width as desired */
-  height: auto; /* This will maintain the aspect ratio of the icon */
+  max-width: 100%; 
+  max-height: 100%; 
+  height: auto; 
 }
