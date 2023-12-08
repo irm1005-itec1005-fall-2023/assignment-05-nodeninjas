@@ -373,6 +373,7 @@ main {
   margin-bottom: 15px;
 }
 .search-container {
+  position: relative;
   max-width: 1000px; 
   margin: 0 auto;
   margin-top: 40px;
@@ -389,6 +390,7 @@ main {
   margin-right: 10px;
   border: none;
   border-radius: 20px;
+  align-items: center;
 }
 
 .search-container button {
@@ -401,6 +403,13 @@ main {
 
 .search-container label {
   display: block;
+  position: absolute; /* Position the label absolutely to overlay the search input */
+  left: 40%; /* Center the label */
+  top: 50%; /* Align the label vertically */
+  transform: translate(-50%, -50%); /* Offset the label by half its width and height */
+  pointer-events: none; /* Allows clicks to pass through to the input underneath */
+  /* Other styles */
+
   margin-bottom: 5px;
   font-weight: bold;
 }
