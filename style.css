@@ -420,7 +420,7 @@ main {
   color: white;
   width: 200px; 
   box-sizing: border-box;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .filter-by-year h2 {
@@ -448,6 +448,7 @@ main {
 .info-boxes {
   display: flex;
   justify-content: space-between;
+ 
 }
 
 .info-box {
