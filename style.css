@@ -349,7 +349,7 @@ main {
   border-width: 0;
 }
 .our-impact {
-  background-color: #f2f2f2;
+  background-color: rgba(174, 155, 113, 0.5);
   padding: 40px; 
   margin-top: 30px; 
   border: 1px solid #ccc; 
@@ -363,7 +363,7 @@ main {
   align-items: center;
   font-weight: bolder;
   color: #181919; 
-  font-size: 1.5em; 
+  font-size: 2rem; 
   margin-bottom: 15px; 
   
 }
@@ -371,4 +371,35 @@ main {
   font-size: 1.1rem; 
   color: #202020; 
   margin-bottom: 15px;
+}
+.search-container {
+  max-width: 1000px; 
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #8d2f2f; 
+  color: rgb(28, 4, 4); 
+  font-size: 1.5;
+  border-radius: 20px;
+}
+
+.search-container input[type=search] {
+  width: 80%; /* Search bar takes up 80% of the container width */
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.search-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e6cccc; /* Light grey background for the button */
+  color: black; /* Black text for the button */
+}
+
+.search-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
