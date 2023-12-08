@@ -414,3 +414,31 @@ main {
   margin-bottom: 5px;
   font-weight: bold;
 }
+.filter-by-year {
+  background-color: #004d40; /* Dark teal background */
+  padding: 20px;
+  color: white;
+  width: 200px; /* Adjust width as needed */
+  box-sizing: border-box; /* Includes padding in the width */
+}
+
+.filter-by-year h2 {
+  border-bottom: 2px solid white; /* White line under the header */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-by-year ul {
+  list-style-type: none; /* Removes the default list bullets */
+  padding: 0;
+}
+
+.filter-by-year li {
+  padding: 5px 0; /* Spacing between each year */
+}
+
+.filter-by-year input[type="checkbox"] {
+  margin-right: 10px; /* Spacing between the checkbox and the label */
+}
+
+/* You can add more styles to match the exact look from your screenshot */
