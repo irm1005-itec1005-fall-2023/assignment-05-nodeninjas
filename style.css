@@ -375,8 +375,9 @@ main {
 .search-container {
   max-width: 1000px; 
   margin: 0 auto;
+  margin-top: 40px;
   padding: 20px;
-  background-color: #8d2f2f; 
+  background-color: rgb(234, 97, 55); 
   color: rgb(28, 4, 4); 
   font-size: 1.5;
   border-radius: 20px;
