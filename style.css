@@ -415,30 +415,29 @@ main {
   font-weight: bold;
 }
 .filter-by-year {
-  background-color: #004d40; /* Dark teal background */
+  background-color: rgba(150, 122, 70, 0.5); 
   padding: 20px;
   color: white;
-  width: 200px; /* Adjust width as needed */
-  box-sizing: border-box; /* Includes padding in the width */
+  width: 200px; 
+  box-sizing: border-box; 
 }
 
 .filter-by-year h2 {
-  border-bottom: 2px solid white; /* White line under the header */
+  border-bottom: 2px solid white; 
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
 
 .filter-by-year ul {
-  list-style-type: none; /* Removes the default list bullets */
+  list-style-type: none; 
   padding: 0;
 }
 
 .filter-by-year li {
-  padding: 5px 0; /* Spacing between each year */
+  padding: 5px 0;
 }
 
 .filter-by-year input[type="checkbox"] {
-  margin-right: 10px; /* Spacing between the checkbox and the label */
+  margin-right: 10px; 
 }
 
-/* You can add more styles to match the exact look from your screenshot */
