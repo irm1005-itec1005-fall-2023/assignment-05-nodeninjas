@@ -502,3 +502,23 @@ main {
   max-height: 100%; 
   height: auto; 
 }
+
+.container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+}
+
+
+.info-box {
+  margin: 10px; 
+  
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+  }
+}
