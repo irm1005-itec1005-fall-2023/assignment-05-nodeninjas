@@ -357,13 +357,18 @@ main {
 }
 
 .our-impact h2 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
   font-weight: bolder;
   color: #181919; 
   font-size: 1.5em; 
   margin-bottom: 15px; 
+  
 }
 .our-impact p {
-  font-size: 1.1em; /* Increased font size */
-  color: #202020; /* Darker shade for text */
-  margin-bottom: 15px; /* Increased space below paragraphs */
+  font-size: 1.1rem; 
+  color: #202020; 
+  margin-bottom: 15px;
 }
