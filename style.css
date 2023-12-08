@@ -456,16 +456,16 @@ main {
   text-align: center;
 }
 
-.red {
+.one{
   background-color: #d74848; 
 }
 
-.blue {
+.two {
   background-color: #b86f3f; 
 }
 
 .info-box .icon {
-  margin-bottom: 20px;
+  margin-bottom: 10 px;
 }
 
 .info-box h3 {
@@ -480,7 +480,7 @@ main {
   padding: 10px 20px;
   border: none;
   background-color: white;
-  color: #1E90FF; 
+  color: #131313; 
   text-decoration: none;
   border-radius: 20px;
   display: inline-block;
@@ -488,5 +488,9 @@ main {
 }
 
 .btn:hover {
-  background-color: #ADD8E6; 
+  background-color: #e6bcad; 
+}
+.info-box .icon img {
+  width: 50px; /* Set the width as desired */
+  height: auto; /* This will maintain the aspect ratio of the icon */
 }
